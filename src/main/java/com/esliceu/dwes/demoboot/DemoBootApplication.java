@@ -16,7 +16,7 @@ public class DemoBootApplication {
     public CommandLineRunner commandLineRunner(AuthenticateComponent authenticateComponent){
         return args -> {
 
-            authenticateComponent.authenticate();
+            //authenticateComponent.authenticate();
 
         };
     }
